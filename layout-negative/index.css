@@ -1,0 +1,28 @@
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px auto 40px;
+    background-color: cornflowerblue;
+}
+
+.header {
+    background-color: crimson;
+    grid-column: 1 / -1; 
+}
+
+.menu {
+    background-color: chocolate;
+}
+
+.content {
+    background-color: aquamarine;
+    grid-column: 2 / -1; 
+}
+
+.footer {
+    background-color: darkkhaki;
+    grid-column: 1 / -1; 
+}
