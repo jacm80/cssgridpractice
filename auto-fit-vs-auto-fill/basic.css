@@ -1,0 +1,37 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #ffffe6;
+}
+
+h1 {
+    color: #ff8080;
+    text-align: center;
+}
+
+.box {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.red {
+    background: #ff8080;
+}
+
+.cyan {
+    background: #80d4ff;
+}
+
+.green {
+    background: #66ffc2;
+}
+
+.yellow {
+    background: #ffe6cc;
+}

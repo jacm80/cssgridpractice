@@ -1,0 +1,17 @@
+@import 'basic.css';
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    grid-template-rows: 100px 100px;
+    grid-gap: 5px;
+    border: 1px solid black;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+    grid-template-rows: 100px 100px;
+    grid-gap: 5px;
+    border: 1px solid black;
+}
